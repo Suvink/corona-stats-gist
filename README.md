@@ -2,7 +2,6 @@
 <center>
    <img  width="600"  src="https://i.imgur.com/BfvMCb6.png">
    <h3  align="center">Corona-Stats-box</h3>
-   <h6>By Suvink </h6>
    <p  align="center">🦠 Update a gist to show Coronavirus stats </p>
 </center>
 
@@ -16,7 +15,7 @@
 
 2. Create an access token with the `gist` scope and copy it. (https://github.com/settings/tokens/new)
 
-3. Edit the environment variables in .github/workflows/schedule.yml:
+3. Edit the environment variables in .github/workflows/main.yml:
       - GIST_ID: The ID portion from your gist url: `https://gist.github.com/matchai/6d5f84419863089a167387da62dd7081`.
       
 

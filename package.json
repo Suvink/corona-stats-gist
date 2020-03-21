@@ -2,6 +2,10 @@
   "name": "corona-stats-box",
   "version": "1.0.0",
   "description": "🦠 Update a gist to show Coronavirus stats",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Suvink/corona-stats-gist"
+  },
   "author": "Suvin Nimnaka <hello@suvink.me>",
   "license": "ISC",
   "dependencies": {

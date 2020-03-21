@@ -11,6 +11,7 @@ LABEL "com.github.actions.color"="blue"
 # Copy the package.json and package-lock.json
 COPY package*.json ./
 
+RUN npm install --save request-promise
 # Install dependencies
 RUN npm ci
 

@@ -1,11 +1,7 @@
 name: Update gist with latest Corona Virus Stats
 on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
   schedule:
-    - cron: '*/60 * * * *'
+    - cron: '*/10 * * * *'
 jobs:
   update-gist:
     runs-on: ubuntu-latest

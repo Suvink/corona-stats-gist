@@ -1,4 +1,6 @@
-FROM node:lts-alpine
+FROM alpine:3.11
+
+ENV NODE_VERSION 12.16.1
 
 # Labels for GitHub to read your action
 LABEL "com.github.actions.name"="bird-box"

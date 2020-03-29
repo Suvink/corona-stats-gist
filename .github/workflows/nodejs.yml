@@ -5,7 +5,7 @@ name: Update Gist with latest Corona Virus status
 
 on:
   schedule:
-    - cron: '**/4***'
+    - cron: '0 */4 * * *'
   push:
     branches: [ master ]
 
